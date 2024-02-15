@@ -1,7 +1,7 @@
 // PokeAPI GET fetch
 let currentExpandedCard = null;
 
-fetch('https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0')
+fetch('https://pokeapi.co/api/v2/pokemon?limit=10000&offset=0')
     .then(response => response.json())
     .then(data => {
         
@@ -28,6 +28,26 @@ fetch('https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0')
                 <p class="identification-paragraph">${pokeID}</p>
             `
             
+            // Here, all the information about the pokemon will be added
+            fetch(`https://pokeapi.co/api/v2/pokemon/${pokeID}/`)
+                .then(response => response.json())
+                .then(AdditionalData => {
+
+                    // Pokémon Type
+                    let firstType = AdditionalData.types[0].type.name;
+                    let secondType = AdditionalData.types[1]?.type.name;
+                    if (secondType === undefined){
+                        secondType = "";
+                    }
+
+                    // Pokémon 
+                    var additionalInfo = pokemonCard.querySelector('.additional-info');
+                    additionalInfo.innerHTML = `
+                    <p class='${firstType}P-type'>${firstType}</p>
+                    <p class='${secondType}P-type'>${secondType}</p>
+                    `
+                })
+
             pokemonCard.id = `card${pokeID}`
             document.body.appendChild(pokemonCard)
 
@@ -35,6 +55,7 @@ fetch('https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0')
     })
 
 function togglePokemonInfo(element) {
+    
     if (currentExpandedCard && currentExpandedCard !== element) {
         // Close the previously expanded card
         currentExpandedCard.classList.remove('expanded');
@@ -48,9 +69,6 @@ function togglePokemonInfo(element) {
     
       // Find the .additional-info element within the clicked container
       var additionalInfo = element.querySelector('.additional-info');
-    
-      // Here, all the information about the pokemon will be added
-      additionalInfo.innerHTML = ``
 
       additionalInfo.classList.toggle('show');
       currentExpandedCard = element;

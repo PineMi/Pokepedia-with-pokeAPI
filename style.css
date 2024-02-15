@@ -42,3 +42,307 @@
     font-size: small;
     color: rgb(113, 115, 117);
 }
+
+
+
+/*color for each type*/
+
+
+.normalP-type{
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #7a756afa;
+  border-radius: 10px; 
+  background-color: rgba(151, 136, 110, 0.596); 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+
+.fightingP-type {
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #a10707fa;
+  border-radius: 10px; 
+  background-color: rgba(223, 15, 15, 0.521); 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; }
+
+
+.flyingP-type {
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #7584c5fa;
+  border-radius: 10px; 
+  background-color: rgba(137, 163, 248, 0.5); 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+
+
+
+.poisonP-type{
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #9141fab4;
+  border-radius: 10px; 
+  background-color: #a962eb73; 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+
+.groundP-type {
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #ceac64fa;
+  border-radius: 10px; 
+  background-color: rgba(231, 197, 137, 0.596); 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+
+
+.rockP-type {
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #9e7928fa;
+  border-radius: 10px; 
+  background-color: rgba(179, 139, 71, 0.596); 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+.bugP-type {
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #5f8f3ffa;
+  border-radius: 10px; 
+  background-color: rgba(84, 150, 58, 0.596); 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+
+.ghostP-type {
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+  border: 2px solid #352592fa;
+  border-radius: 10px; 
+  background-color: rgba(95, 80, 161, 0.555); 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+
+.steelP-type {
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #748092fa;
+  border-radius: 10px; 
+  background-color: rgba(150, 170, 201, 0.596); 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+
+.fireP-type{
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #161616;
+  border: 2px solid #ff310c;
+  border-radius: 10px; 
+  background-color: #f7511f9a; 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+
+.waterP-type{
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #0077ff94;
+  border-radius: 10px; 
+  background-color: #8fbfffd8; 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+
+.grassP-type {
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #00ff0080;
+  border-radius: 10px; 
+  background-color: #d4ffd4; 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+
+
+.electricP-type {
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #f0d90bfa;
+  border-radius: 10px; 
+  background-color: rgba(250, 253, 93, 0.801); 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+
+}
+
+.psychicP-type {
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #e923f0fa;
+  border-radius: 10px; 
+  background-color: rgba(229, 97, 247, 0.596); 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+
+.iceP-type {
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #00f7ff94;
+  border-radius: 10px; 
+  background-color: #8feeffd8; 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+
+.dragonP-type {
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #5121ff94;
+  border-radius: 10px; 
+  background-color: #997ff8d8; 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+
+.darkP-type {
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+  border: 2px solid #382d19c5;
+  border-radius: 10px; 
+  background-color: #474239b4; 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+
+.fairyP-type{
+  font-family: 'Monaco', monospace;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #fd91f4d7;
+  border-radius: 10px; 
+  background-color: #ffd7fdd8; 
+  padding-top: 0px; 
+  padding-bottom: 3px;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  display: inline-flex; 
+  margin: 0; 
+}
+
+.P-type {
+  display: none;
+}
+
+
+
