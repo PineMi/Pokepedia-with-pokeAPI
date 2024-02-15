@@ -1,0 +1,44 @@
+.pokemon-container {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding: 15px; /* Space Around */
+    border-radius: 10px; /* Round Corners*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer; /* Add pointer cursor */
+  }
+  
+  .pokemon-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px; 
+    object-fit: fill;
+    border: 2px solid #fff; 
+  }
+  
+  .pokemon-name {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold; 
+  }
+  
+  .additional-info {
+    display: none;
+  }
+
+  .additional-info.show {
+    display: block;
+  }
+
+  
+.pokemon-container.expanded {
+    /* I haven't decided yet */
+    padding: 20px;
+  }
+  
+
+.identification-paragraph {
+    font-size: small;
+    color: rgb(113, 115, 117);
+}
